@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Poppins:wght@300&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+        <style>
+            * {
+                padding: 0;
+                margin: 0
+            }
+
+            body {
+                background-image: url(./images/bg.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: bottom;
+                height: 100vh;
+                width: 100%;
+            }
+
+            nav a {
+                font-family: 'Poppins', sans-serif;
+            }
+
+            nav a:hover {
+                font-weight: bold;
+            }
+
+            .name {
+                text-transform: uppercase;
+            }
+
+            main {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            main h1 {
+                font-family: 'Cookie', cursive;
+                font-size: 4vw;
+                letter-spacing: 2px;
+                text-transform: lowercase;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="p-2" style="background-color: rgb(210, 180, 140, 0.3);">
+            <ul class="nav nav-pills nav-fill">
+                <li class="nav-item"><a class="nav-link text-dark" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="about.html">About</a></li>
+                <li class="nav-item dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                        Schedule
+                      </button>
+                      <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                        <li><a class="dropdown-item active" href="#">Daily Activities</a></li>
+                        <li><a class="dropdown-item" href="#">Important Tasks</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">Planned Tasks</a></li>
+                      </ul>
+
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <h1>Your Daily Planner</h1>
+        </main>
+
+        <script src="" async defer></script>
+    </body>
+</html>
